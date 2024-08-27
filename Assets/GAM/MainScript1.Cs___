@@ -1,0 +1,86 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Collections;
+
+public class MMMMM : MonoBehaviour
+{
+	public GameObject pauseMenuUI;
+	public Button resumeButton;
+	public Button mainMenuButton;
+	public Button quitButton;
+
+	private bool isPaused = false;
+    public GameObject menu; // The menu panel
+    public float slideDuration = 0.5f; // Duration of the slide animation
+    public AudioSource opénSound; // Sound to play when opening
+    public AudioSource closeSound; // Sound to play when closing
+
+    private Vector3 offScreenPosition; // Position off-screen
+    private Vector3 onScreenPosition; // Position on-screen
+//    private bool isMenuOpen = false;
+
+    void Start()
+	{
+		pauseMenuUI.SetActive(false);
+
+		resumeButton.onClick.AddListener(Resume);
+		mainMenuButton.onClick.AddListener(GoToMainMenu);
+		quitButton.onClick.AddListener(QuitGame);
+
+        offScreenPosition = new Vector3(menu.transform.position.x, -menu.GetComponent<RectTransform>().rect.height, menu.transform.position.z);
+        onScreenPosition = menu.transform.position;
+        menu.transform.position = offScreenPosition;
+    }
+
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.Escape))
+			if (isPaused)	Resume();
+			else Pause();
+	}
+
+	void Resume()
+	{
+        StartCoroutine(SlideMenu(offScreenPosition, closeSound));
+        pauseMenuUI.SetActive(false);
+		Time.timeScale = 1f;
+		isPaused = false;
+	}
+
+	void Pause()
+	{
+        StartCoroutine(SlideMenu(onScreenPosition, opénSound));
+        pauseMenuUI.SetActive(true);
+		Time.timeScale = 0f;
+		isPaused = true;
+	}
+
+	void GoToMainMenu()
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene("MainMenu"); // Pøedpokládáme, že scéna hlavního menu se jmenuje "MainMenu"
+	}
+
+	void QuitGame()
+	{
+		Application.Quit();
+	}
+
+    private IEnumerator SlideMenu(Vector3 targetPosition, AudioSource sound)
+    {
+        float elapsedTime = 0;
+        Vector3 startingPosition = menu.transform.position;
+        sound.Play();
+
+        while (elapsedTime < slideDuration)
+        {
+            menu.transform.position = Vector3.Lerp(startingPosition, targetPosition, elapsedTime / slideDuration);
+            elapsedTime += Time.unscaledDeltaTime; // Use unscaledDeltaTime to ignore timeScale
+            yield return null;
+        }
+
+        menu.transform.position = targetPosition;
+        sound.Stop();
+    }
+}
