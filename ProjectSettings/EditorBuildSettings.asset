@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5860448cc402b664eb9f53d811417fbb
+  - enabled: 1
+    path: Assets/Scenes/T.unity
+    guid: dad1ec3264f5ed24789ce3edc9d3650e
+  - enabled: 1
+    path: Assets/Scenes/deadmenu.unity
+    guid: ea722f2acba0cce4b9f3ee4ae63e26b5
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/2/1.unity
+    guid: 72edb5d587bc1c24dbdf9fc73ee57643
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/9.unity
+    guid: 1a622addcbccc0b41834b79d84e01bdc
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/8.unity
+    guid: 82bc7b6bab6348c47baa9afbda4940a9
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/7.unity
+    guid: e4f935249e7e57046844024aaedd0140
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/6.unity
+    guid: 7dd3f2b2178a5e24ebfc43657848660e
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/5.unity
+    guid: 61bae7c6400c9d841aa1e37cafc7ce12
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/2/4.unity
+    guid: f871f32dc5d29914a84cfad5909e0009
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/2/2.unity
+    guid: 275c42eaf9c202540a8f76276c4fbc82
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/2/3.unity
+    guid: 8295608989372db46b4db7584b7c8589
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/10.unity
+    guid: 467b9497ad12fe34796696af97850df2
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/11.unity
+    guid: 68f9e8c86b4f6444482817bac4abf102
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/12.unity
+    guid: 5e0172bc75bf974409186f41d2fe93d6
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/42/13.unity
+    guid: 7eff91a7f5af6ef4fa3703a2acda7352
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/05/15.unity
+    guid: 296cffa604ee4a44eb3589c105bc1d5b
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/05/14.unity
+    guid: 9cad3738f5155034096f8ec8745352b0
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/Twin/TTT.unity
+    guid: 6dcfcb0f204855f44aa77fba76db8796
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/1win/Wwq.unity
+    guid: b773f17ac4520a0478a6175081d8b75c
+  - enabled: 1
+    path: Assets/Scenes/Dead animations/1win/pivo.unity
+    guid: 40122e793177ceb499777c1cf835c9b2
+  - enabled: 1
+    path: Assets/Scenes/T 800.unity
+    guid: 1d2b2a88b13a4334e8f6f6112f0458ed
+  m_configObjects: {}
