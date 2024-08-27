@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: e25d2e022db52f24ab2c6e1bf8829e1e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 335
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18472f4b5ddd1c94d9ff1c9495b1629b
+      internalID: 1170775032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 335
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce34dde5d0cbfa843b5c18dca96d7a4c
+      internalID: 30440236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 335
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d82b48d7c7c34c9d387a256de7450
+      internalID: -623616829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 335
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaf9e2abd6d4024a823176bd67b438c
+      internalID: 1493349098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 232
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7383934081ff55745900d38000b2482a
+      internalID: 1546354106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 232
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000bb04cb1686714fb68ea25f742d7d7
+      internalID: 1288267167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 232
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094e007d9a5b6cc49b73c3787ee6f871
+      internalID: 1202225675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 232
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161075995c9b7546bed8e04938dc6e4
+      internalID: 287915928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52a04768949f8a49b15efa58c203765
+      internalID: -566538698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 129
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5e8e860003854181fe318ba9bce98
+      internalID: -330981284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 129
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292e556e691aea34090ed7a3b33eb29c
+      internalID: -1433951593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 129
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a6b531094ad7a4fb7e56f1315b0f15
+      internalID: -1362257331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 26
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123190d69907d546a2a00a957ad9b0e
+      internalID: -1296176186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 26
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4146e5e4561f35349a2b30a50da7ab51
+      internalID: 652768036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 26
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f592deb60044034fa5672a3ee39cd90
+      internalID: 974884640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 26
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62e785727477d342b28500a89e5401c
+      internalID: 973959522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_0: 1170775032
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_1: 30440236
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_10: -1433951593
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_11: -1362257331
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_12: -1296176186
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_13: 652768036
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_14: 974884640
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_15: 973959522
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_2: -623616829
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_3: 1493349098
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_4: 1546354106
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_5: 1288267167
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_6: 1202225675
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_7: 287915928
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_8: -566538698
+      94-944015_minecraft-explosion-png-png-download-tnt-explosion-particle-removebg-preview_9: -330981284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
