@@ -1,7 +1,7 @@
 # AAAAAAAA
 ## popis
 Je to hra,<br>
-![AAAAAAAA](./obj/AAaaaa/cs.png)<br>
+![AAAAAAAA](./obj/AAaaaa/sc.png)<br>
 cílem je projít všechny vlny, a porazit bosse,<br>
 ![AAAAAAAA](./obj/AAaaaa/bbb.png)<br>
 obsahuje spoustu krokodýlů,<br>
